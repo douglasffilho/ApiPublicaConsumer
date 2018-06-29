@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Teste de API</title>
+
+</head>
+
+<body>
+
+    <h1>Fabricantes de carros</h1>
+
+    <div id="carMakersView"></div>
+
+    <script src="js/app/utils/ProxyFactory.js"></script>
+    <script src="js/app/utils/Bind.js"></script>
+
+    <script src="js/app/services/CarMakersService.js"></script>
+    
+    <script src="js/app/models/CarMaker.js"></script>
+    <script src="js/app/models/CarMakersList.js"></script>
+
+    <script src="js/app/views/View.js"></script>
+    <script src="js/app/views/CarMakersView.js"></script>
+
+    <script src="js/app/controllers/CarMakerController.js"></script>
+    
+    <script>
+        let carMakerController = new CarMakerController();
+        carMakerController.getCarMakers();
+    </script>
+</body>
+
+</html>
