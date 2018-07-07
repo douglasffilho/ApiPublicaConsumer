@@ -1,7 +1,7 @@
 class CarMakersService {
 
     constructor() {
-        this._getAllCarMakersServiceUrl = 'http://localhost:8081/public/api/v1/car-makers/find';
+        this._getAllCarMakersServiceUrl = 'http://localhost:8081/public/api/v1/cars-makers';
     }
 
     getAllCarMakers() {
